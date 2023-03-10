@@ -1,0 +1,25 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: grey;
+}
+.APP-conatiner{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.logo{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main-wrapper {
+    margin: 20px auto auto auto;
+    padding: 20px;
+    max-width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}

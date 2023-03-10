@@ -1,0 +1,29 @@
+.line{
+    margin-top: 10px;
+    width: 100%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: gray;
+}
+.all-extra-info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.full-box{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 40px;
+}
+.info{
+    margin-top: 4px;
+}
+@media only screen and (max-width: 410px){
+    .all-extra-info{
+        justify-content: space-between;
+    }
+}

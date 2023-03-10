@@ -1,0 +1,99 @@
+.main-forecast-container{
+    max-width: 550px;
+    margin: 30px auto 10px auto;
+}
+.title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.daily-item{
+    padding: 5px 15px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(159, 159, 159);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.small-icon{
+    width: 65px;
+    
+}
+.icon-day{
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+}
+.weather-description{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+.day{
+    font-size: 18px;
+}
+.temp{
+    font-size: 20px;
+    font-weight: 500;
+    color: ghostwhite;
+}
+
+.daily-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+}
+.daily-items{
+    margin-bottom: 10px;
+    display: flex;
+}
+.info{
+    color: gainsboro;
+}
+.weather-data{
+    color:  ghostwhite;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 480px){
+    .weather-description{
+        font-size: 12px;
+        margin-right: 7px;
+    }
+    .temp{
+        font-size: 16px;
+    }
+    .day{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .weather-description{
+        font-size: 12px;
+        margin-right: 7px;
+    }
+    .temp{
+        font-size: 16px;
+    }
+    .day{
+        font-size: 16px;
+    }
+    .description-temp{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .daily-details{
+        display: block;
+    }
+}
